@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;600&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;1,900&display=swap');
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+   
+    
+}
+.parent{
+    background: linear-gradient(to right, #5DBE94, #5AB7B4);
+    border: 7px solid #A34073;
+}
+section{margin: 50px;}
+h1{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align: center;
+}
+th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+table{width: 100%; table-layout: fixed;}
+.table-header{
+    background-color: rgba(255,255,255,0.3);
+}
+.table-content{
+    /* height: 300px; */
+    overflow-x: auto ;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+td{
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
